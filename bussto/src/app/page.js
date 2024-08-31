@@ -12,45 +12,7 @@ import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/componen
 export default function Component() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="flex items-center justify-between px-6 py-4 bg-primary text-primary-foreground sm:px-8 md:px-10">
-        <Link href="#" className="flex items-center gap-2 text-lg font-semibold" prefetch={false}>
-          <BusIcon className="w-6 h-6" />
-          <span>Automated Scheduling</span>
-        </Link>
-        <nav className="items-center hidden gap-6 md:flex">
-          <Link href="#" className="hover:underline underline-offset-4" prefetch={false}>
-            Passenger
-          </Link>
-          <Link href="#" className="hover:underline underline-offset-4" prefetch={false}>
-            Manager
-          </Link>
-          <Link href="/schedulebus" className="hover:underline underline-offset-4" prefetch={false}>
-            Schedule
-          </Link>
-        </nav>
-        <div className="md:hidden">
-          <Sheet>
-            <SheetTrigger asChild>
-              <Button variant="outline" size="icon">
-                <MenuIcon className="w-6 h-6" />
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="right" className="w-64 p-6 bg-background">
-              <nav className="grid gap-4">
-                <Link href="#" className="hover:underline underline-offset-4" prefetch={false}>
-                  Passenger
-                </Link>
-                <Link href="#" className="hover:underline underline-offset-4" prefetch={false}>
-                  Manager
-                </Link>
-                <Link href="#" className="hover:underline underline-offset-4" prefetch={false}>
-                  Schedule
-                </Link>
-              </nav>
-            </SheetContent>
-          </Sheet>
-        </div>
-      </header>
+     
       <main className="flex-1">
         <section className="py-12 bg-muted md:py-16 lg:py-20">
           <div className="container px-4 md:px-6 lg:px-8">
