@@ -41,12 +41,15 @@ export default function Component() {
                   </Link>
                 </div>
               </div>
+
+              {/* --------------------------------------------image------------------------ */}
               <img
-                src="/placeholder.svg"
-                width={500}
-                height={400}
+                src="/bus-1868507_1920.jpg"
+                width={450}
+                height={350}
+                
                 alt="Automated Scheduling"
-                className="mx-auto overflow-hidden rounded-xl"
+                className="mx-auto overflow-hidden rounded-t-lg"
                 style={{ aspectRatio: "500/400", objectFit: "cover" }}
               />
             </div>
