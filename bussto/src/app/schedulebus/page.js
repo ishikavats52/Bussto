@@ -7,9 +7,7 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card"
 export default function Component() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="px-6 py-4 bg-primary text-primary-foreground">
-        <h1 className="text-2xl font-bold">Bus Schedule</h1>
-      </header>
+      
       <main className="grid flex-1 grid-cols-1 gap-8 p-8 lg:grid-cols-2">
         <div className="p-6 rounded-lg shadow-md bg-background">
           <h2 className="mb-4 text-xl font-semibold">Schedule a Bus Route</h2>
